@@ -1,0 +1,19 @@
+for fizzbuzz in range(100):
+
+    # number divisible by 15(both the numbers), print 'FizzBuzz'
+    if fizzbuzz % 15 == 0:
+        print("FizzBuzz")
+        continue
+
+    # number divisible by 3, print 'Fizz'
+    elif fizzbuzz % 3 == 0:
+        print("Fizz")
+        continue
+
+    # number divisible by 5 , print 'Buzz'
+    elif fizzbuzz % 5 == 0:
+        print("Buzz")
+        continue
+
+    # print numbers
+    print(fizzbuzz)
